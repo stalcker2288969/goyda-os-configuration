@@ -1,3 +1,4 @@
+{desctop, ...}:
 {
   imports = [
     ./audio.nix
@@ -14,5 +15,6 @@
     ./nh.nix
     ./printing.nix
     ./user.nix
+    ./desctop/${desctop}.nix
   ];
 }

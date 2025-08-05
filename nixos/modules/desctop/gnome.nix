@@ -1,8 +1,4 @@
 {pkgs, ...}: {
-    imports = [
-        ./modules
-    ];
-
     # Enable the GNOME Desktop Environment.
     services.xserver = {
         enable = true;

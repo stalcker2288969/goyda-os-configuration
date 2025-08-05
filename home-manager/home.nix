@@ -1,8 +1,8 @@
-{ homeStateVersion, user, desktop, ... }: {
+{ homeStateVersion, user, desctop, ... }: {
   imports = [
     ./modules
     ./home-packages.nix
-    ./${desktop}/main.nix
+    ./${desctop}
   ];
 
   home = {

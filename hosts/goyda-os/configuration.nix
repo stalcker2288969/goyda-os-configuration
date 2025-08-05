@@ -1,4 +1,4 @@
-{ pkgs, stateVersion, hostname, ... }:
+{ pkgs, stateVersion, hostname, desctop, ... }:
 
 {
   imports = [

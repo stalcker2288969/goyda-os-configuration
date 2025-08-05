@@ -27,7 +27,7 @@
     system = "x86_64-linux";
     homeStateVersion = "25.05";
     user = "stalcker"; # artemy 
-    desktop = "gnome"; # "hyprland"
+    desctop = "gnome"; # "hyprland"
     hosts = [
       { hostname = "goyda-os"; stateVersion = "25.05"; }
       #{ hostname = "330-15ARR"; stateVersion = "24.11"; }
@@ -36,7 +36,7 @@
     makeSystem = { hostname, stateVersion }: nixpkgs.lib.nixosSystem {
       system = system;
       specialArgs = {
-        inherit inputs stateVersion hostname user;
+        inherit inputs stateVersion hostname user desctop;
       };
 
       modules = [
@@ -55,7 +55,7 @@
     homeConfigurations.${user} = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
       extraSpecialArgs = {
-        inherit inputs homeStateVersion user desktop;
+        inherit inputs homeStateVersion user desctop;
       };
 
       modules = [
