@@ -13,12 +13,14 @@
     obsidian
     pavucontrol
     teams-for-linux
+    discord
     telegram-desktop
-    vscode
-    vesktop
+    #vesktop
+    wofi
 
     # CLI utils
     bc
+    tree
     bottom
     brightnessctl
     cliphist
@@ -51,12 +53,6 @@
     nodejs
     python311
     dotnetCorePackages.sdk_9_0-bin
-
-    # WM stuff
-    #libsForQt5.xwaylandvideobridge
-    #libnotify
-    #xdg-desktop-portal-gtk
-    #xdg-desktop-portal-hyprland
 
     # Other
     bemoji

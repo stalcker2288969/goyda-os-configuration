@@ -1,7 +1,7 @@
 {
   programs.git = {
     enable = true;
-    #userName = "user-name";
-    #userEmail = "user-email";
+    userName = "stalcker2288969";
+    userEmail = "stalcker2288969@proton.me";
   };
 }

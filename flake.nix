@@ -10,10 +10,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    #stylix = {
-    #  url = "github:danth/stylix/release-25.05";
-    #  inputs.nixpkgs.follows = "nixpkgs";
-    #};
+    stylix = {
+      url = "github:danth/stylix/release-25.05";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # COMING SOON...
     #nixvim = {
@@ -27,7 +27,7 @@
     system = "x86_64-linux";
     homeStateVersion = "25.05";
     user = "stalcker"; # artemy 
-    desctop = "gnome"; # "hyprland"
+    desctop = "hyprland"; # "hyprland" "gnome"
     hosts = [
       { hostname = "goyda-os"; stateVersion = "25.05"; }
       #{ hostname = "330-15ARR"; stateVersion = "24.11"; }

@@ -15,6 +15,7 @@
     ./nh.nix
     ./printing.nix
     ./user.nix
+    ./env.nix
     ./desctop/${desctop}.nix
   ];
 }
